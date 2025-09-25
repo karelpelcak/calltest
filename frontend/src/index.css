@@ -1,0 +1,70 @@
+/* Reset + základ */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, sans-serif;
+}
+
+body {
+  background: #111;
+  color: #eee;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Karta */
+.card {
+  background: #1e1e1e;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+/* Nadpis */
+.card h1 {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Input */
+.card input {
+  width: 100%;
+  padding: 0.6rem 1rem;
+  border: 1px solid #444;
+  border-radius: 0.5rem;
+  background: #2c2c2c;
+  color: #fff;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+/* Button */
+.card button {
+  width: 100%;
+  padding: 0.7rem 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  background: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.card button:hover {
+  background: #0056b3;
+}
+
+/* Status */
+.status {
+  margin-top: 1rem;
+  color: #4ade80;
+  font-weight: bold;
+}
