@@ -1,7 +1,7 @@
 import { useRef, useState } from "react";
 import { initWebRTC } from "./webrtc";
 
-const WS_URL = "ws://localhost:8080/ws";
+const WS_URL = "ws://188.246.96.246:5173/ws";
 
 export default function App() {
   const [roomId, setRoomId] = useState("");
